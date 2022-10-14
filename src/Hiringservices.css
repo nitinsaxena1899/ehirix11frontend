@@ -1,0 +1,34 @@
+
+  
+
+
+.services__hiringServices__boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.services__hiringServices__boxes__row {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 70%;
+}
+
+.services__hiringServices__boxes__row__box {
+  padding: 4%;
+  margin: 27px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+    rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+    rgb(0 0 0 / 9%) 0px -3px 5px;
+  width: 18%;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 35px;
+}
+
+.services__hiringServices__boxes__row__box:hover {
+  transform: scale(1.4) !important;
+  transition: 1s;
+  background-color: #ff7234;
+  color: white;
+}

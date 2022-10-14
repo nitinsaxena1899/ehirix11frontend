@@ -1,0 +1,246 @@
+.footer{
+    /* background-color: #000000; */
+    background-color: white;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    /* position: absolute; */
+    width: 92%;
+    padding: 4%;
+    display: flex;
+    bottom: 0px;
+    border-top: 1px solid gray;
+
+   
+}
+
+.foorter__firstDiv{
+    text-align: initial;
+    width: 30%;
+    margin: 0% 2%;
+}
+
+.foorter__firstDiv__first__logo{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+.foorter__firstDiv__first__details{
+    /* color: #EAEAEA; */
+    color: black;
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+
+
+.foorter__firstDiv__second__socialMedia{
+    margin-top: 10%;
+
+}
+
+.foorter__firstDiv__second__socialMedia__facebook{   
+    color: white;
+    background-color: #0026e9;
+    width: 45px !important;
+    height: 35px !important;
+    border-radius: 50%;
+        margin: 0px 1%;
+
+}
+
+.foorter__firstDiv__second__socialMedia__twitter{
+    color: white;
+    width: 45px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    background-color: #25b4ff;
+        margin: 0px 1%;
+
+}
+
+
+.foorter__firstDiv__second__socialMedia__instagram{
+    color: white;
+    width: 45px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    background-color: #9f1a48;
+        margin: 0px 1%;
+
+
+}
+
+.foorter__firstDiv__second__socialMedia__youtube{
+    color: white;
+    width: 45px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    background-color: #D8423F;
+    margin: 0px 1%;
+
+
+}
+
+
+.foorter__secondDiv{
+    text-align: initial;
+    margin: 0% 2%;
+}
+
+
+.footer__secondDiv__firstHeading{
+    /* color: #FFFFFF; */
+    color: black;
+    font-family: "Abril Fatface", Sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+
+}
+
+
+.footer__secondDiv__heading{
+    padding: 5px 0px 10px 0px;
+    /* color: #EAEAEA; */
+    color: black;
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+
+.foorter__thirdDiv{
+    text-align: initial;
+    margin: 0% 2%;
+
+}
+
+.foorter__thirdDiv__heading{
+    /* color: #FFFFFF; */
+    color: black;
+    font-family: "Abril Fatface", Sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.foorter__thirdDiv__first{
+    display: flex;
+    align-items: center;
+    margin: 6% 0%;
+}
+
+.foorter__thirdDiv__first__icon{
+    color: #ff7234;
+
+}
+
+.foorter__thirdDiv__first__detail{
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    /* color: #EAEAEA; */
+    color: black;
+    margin-left: 5%;
+
+}
+
+.foorter__thirdDiv__second{
+    display: flex;
+    align-items: center;
+    margin: 6% 0%;
+}
+
+.foorter__thirdDiv__second__icon{
+    color: #ff7234;
+
+}
+
+.foorter__thirdDiv__second__detail{
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    /* color: #EAEAEA; */
+    color: black;
+    margin-left: 5%;
+
+}
+
+
+.foorter__thirdDiv__third{
+    display: flex;
+    align-items: center;
+    margin: 6% 0%;
+}
+
+
+.foorter__thirdDiv__third__icon{
+    color: #ff7234;
+
+}
+
+.foorter__thirdDiv__third__detail{
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* color: #EAEAEA; */
+    color: black;
+    margin-left: 5%;
+
+}
+
+
+
+
+.foorter__fourthDiv{
+    text-align: initial;
+    margin: 0% 2%;
+}
+
+.foorter__fourthDiv__heading{
+    /* color: #FFFFFF; */
+    color: black;
+    font-family: "Abril Fatface", Sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+
+.foorter__fourthDiv__second__detail{
+
+    font-family: "Rubik", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    /* color: #EAEAEA; */
+    color: black;
+}
+
+
+
+.foorter__fourthDiv__third__button{
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+    background-color: #ff6d12;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding: 18px 35px;
+    border-radius: 33.5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+

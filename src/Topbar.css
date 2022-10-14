@@ -1,0 +1,35 @@
+.topBar{
+    display: flex;
+    background-color: #243559;
+    color: #e8e8e8;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.topBar__left{
+    display: flex;
+}
+
+
+.topBar__leftcallIcon{
+    color: #ff7234;
+    margin-top: 14%;
+}
+
+
+.topBar__right{
+    display: flex;
+    margin-left: 50%;
+}
+
+
+.topBar__right__socialMediaicons{
+display: flex;
+}
+
+
+.socialMediaicons{
+    margin-left: 4%;
+    margin-right: 4%;
+}
