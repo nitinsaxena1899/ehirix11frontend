@@ -1,34 +1,34 @@
-import React, { useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-import './Home.css';
-import HOMEGRAPHIC from './images/homeGraphic.jpg';
-import REGISTRATION2 from './images/registration2.jpg';
-import LISTINGSETUP from './images/listingSetup.jpg';
+import "./Home.css";
+import HOMEGRAPHIC from "./images/homeGraphic.jpg";
+import REGISTRATION2 from "./images/registration2.jpg";
+import LISTINGSETUP from "./images/listingSetup.jpg";
 // import ACCOUNTMANAGEMENT from './images/accountManagement.jpg'
-import ACCOUNT from './images/account.jpg';
-import BRAND from './images/brand.jpg';
+import ACCOUNT from "./images/account.jpg";
+import BRAND from "./images/brand.jpg";
 
-import CARTICON from './images/carticon.png';
+import CARTICON from "./images/carticon.png";
 
-import ImageSlider, { Slide } from 'react-auto-image-slider';
-import { motion, variants } from 'framer-motion';
+import ImageSlider, { Slide } from "react-auto-image-slider";
+import { motion, variants } from "framer-motion";
 
-import WEBSITE from './images/website.jpg';
-import CHARTED from './images/charted.jpg';
+import WEBSITE from "./images/website.jpg";
+import CHARTED from "./images/charted.jpg";
 // import CARTICON from './images/carticon.png';
 
-import DEMANDICON from './images/demandicon.png';
-import DESIGNERICON from './images/designericon.png';
-import DIGITALMARKETINGICON from './images/digitalmarketingicon.png';
-import DIGITALOFFICERICON from './images/digitalofficericon.png';
-import ECOMMERCEICON from './images/ecommerceicon.png';
-import HARDWAREICON from './images/hardwareicon.png';
-import OPERATIONICON from './images/operationicon.png';
-import SOFTWAREICON from './images/softwareicon.png';
-import ADMINISTRATORICON from './images/administratoricon.png';
-import WRITERICON from './images/writericon.png';
-import QAICON from './images/qaicon.png';
+import DEMANDICON from "./images/demandicon.png";
+import DESIGNERICON from "./images/designericon.png";
+import DIGITALMARKETINGICON from "./images/digitalmarketingicon.png";
+import DIGITALOFFICERICON from "./images/digitalofficericon.png";
+import ECOMMERCEICON from "./images/ecommerceicon.png";
+import HARDWAREICON from "./images/hardwareicon.png";
+import OPERATIONICON from "./images/operationicon.png";
+import SOFTWAREICON from "./images/softwareicon.png";
+import ADMINISTRATORICON from "./images/administratoricon.png";
+import WRITERICON from "./images/writericon.png";
+import QAICON from "./images/qaicon.png";
 
 function Home() {
   useEffect(() => {
@@ -84,7 +84,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -98,7 +98,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -112,7 +112,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -126,7 +126,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -140,7 +140,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -154,7 +154,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -168,7 +168,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -182,7 +182,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 0.5,
       },
@@ -196,7 +196,7 @@ function Home() {
       opacity: 1,
       rotate: [0, 10, 0],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
@@ -249,8 +249,8 @@ function Home() {
       <motion.div
         // className="home__bannerDetail"
         className="home__companyInfo"
-        initial={'offscreen'}
-        whileInView={'onscreen'}
+        initial={"offscreen"}
+        whileInView={"onscreen"}
         viewport={{ once: true, amount: 1 }}
         transition={{ staggerChildren: 0.9 }}
         variants={homeCompanyinfo}
@@ -287,8 +287,8 @@ function Home() {
 
       <motion.div
         className="home__companyDetail"
-        initial={'offscreen'}
-        whileInView={'onscreen'}
+        initial={"offscreen"}
+        whileInView={"onscreen"}
         viewport={{ once: true, amount: 0.5 }}
         transition={{ staggerChildren: 0.9 }}
         variants={companyDetails}
@@ -318,12 +318,10 @@ function Home() {
       </motion.div>
 
       <div className="home__boxes">
-       
-
         <motion.div
           className="home__boxes__box"
-          initial={'offscreen'}
-          whileInView={'onscreen'}
+          initial={"offscreen"}
+          whileInView={"onscreen"}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ staggerChildren: 0.9 }}
         >
@@ -338,24 +336,30 @@ function Home() {
               className="home__boxes__box__heading"
               variants={homeBoxesfirstheading}
             >
-              CHARTED ACCOUNTANT
+              ECOMMERCE
             </motion.h1>
 
             <motion.p
-              className="home__boxes__box__details"
+              className="home__boxes__box__details firstBoxdetail"
               variants={homeBoxessecondheading}
             >
-              The digital marketing landscape is evolving. Getting a website
-              developed to grow your business won’t help much unless you know
-              when and where your customers are looking for a product/service.{' '}
+              Ecommerce marketplace is a place where we can sell our products
+              globally, there are lot of helping hands here which help to do
+              business on portals, it is called ecommerce marketplace. We are
+              the middlemen who help to establish your business on marketplace
+              portals like Amazon, Flipkart, Meesho, Pepperfry, etc. We provide
+              these services to our clients for better access to products
+              globally. We provide end-to- end marketplace management services
+              such as account setup, listing, cataloguing, image editing, ad
+              optimization with relevant keywords.
             </motion.p>
           </div>
         </motion.div>
 
         <motion.div
           className="home__boxes__box"
-          initial={'offscreen'}
-          whileInView={'onscreen'}
+          initial={"offscreen"}
+          whileInView={"onscreen"}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ staggerChildren: 0.9 }}
         >
@@ -374,20 +378,26 @@ function Home() {
             </motion.h1>
 
             <motion.p
-              className="home__boxes__box__details"
+              className="home__boxes__box__details secondBoxdetail"
               variants={homeBoxessecondheading}
             >
-              The digital marketing landscape is evolving. Getting a website
-              developed to grow your business won’t help much unless you know
-              when and where your customers are looking for a product/service.{' '}
+              Our website developers provide expert web application development
+              and web design services to our clients. Appnovation offers a
+              variety of website design and development services, from creating
+              mobile web development solutions and responsive website designs,
+              to building custom e-commerce and intranet experiences using the
+              latest and proven web technologies. With up to 85% of consumers
+              visiting company’s or service provider’s website before making a
+              purchase, more and more consumers make decisions based on their
+              online experience.
             </motion.p>
           </div>
         </motion.div>
 
         <motion.div
           className="home__boxes__box"
-          initial={'offscreen'}
-          whileInView={'onscreen'}
+          initial={"offscreen"}
+          whileInView={"onscreen"}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ staggerChildren: 0.9 }}
         >
@@ -402,16 +412,22 @@ function Home() {
               className="home__boxes__box__heading"
               variants={homeBoxesfirstheading}
             >
-              CIVIL $ STRUCTURAL ENGINEERS
+              HIRING SERVICES
             </motion.h1>
 
             <motion.p
               className="home__boxes__box__details"
               variants={homeBoxessecondheading}
             >
-              The digital marketing landscape is evolving. Getting a website
-              developed to grow your business won’t help much unless you know
-              when and where your customers are looking for a product/service.{' '}
+              We are the one of the start-up company that will provide the
+              staffing solutions at this place. ehirix solutions is a
+              combination of talents, professional management and will provide
+              services to multiple industries. We are here with the Innovative
+              approach that will create a great relationship b/w Employer,
+              Employee and ehirix solutions. We provide the solutions for all
+              type of business (Large scale and Medium Scale and Start-up). Our
+              expert management having a great exposure for the placing the
+              right candidate at the right time. 
             </motion.p>
           </div>
         </motion.div>
@@ -431,8 +447,8 @@ function Home() {
       <div className="home__offering__boxes">
         <motion.div
           className="home__offering__boxes__row"
-          initial={'offscreen'}
-          whileInView={'onscreen'}
+          initial={"offscreen"}
+          whileInView={"onscreen"}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ staggerChildren: 0.9 }}
         >
@@ -499,8 +515,8 @@ function Home() {
 
         <motion.div
           className="home__offering__boxes__row"
-          initial={'offscreen'}
-          whileInView={'onscreen'}
+          initial={"offscreen"}
+          whileInView={"onscreen"}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ staggerChildren: 0.9 }}
           variants={offeringBoxrow2}
@@ -559,8 +575,8 @@ function Home() {
 
         <motion.div
           className="home__offering__boxes__row"
-          initial={'offscreen'}
-          whileInView={'onscreen'}
+          initial={"offscreen"}
+          whileInView={"onscreen"}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ staggerChildren: 0.9 }}
         >
@@ -627,8 +643,8 @@ function Home() {
 
         <motion.div
           className="home__offering__boxes__row"
-          initial={'offscreen'}
-          whileInView={'onscreen'}
+          initial={"offscreen"}
+          whileInView={"onscreen"}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ staggerChildren: 0.9 }}
         >

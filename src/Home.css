@@ -4,12 +4,20 @@
   flex-direction: column;
   /* margin: 0% 2%; */
   overflow: hidden;
-  max-width: 1650px;
+  /* max-width: 1650px; */
   margin: auto;
 }
 
 .webDevelopmentservices {
   color: #ff7234;
+}
+
+.gliuUr{
+  display: none !important;
+}
+
+.jYrNPp{
+  display: none;
 }
 
 .home__bannerDetail {
@@ -299,7 +307,7 @@
   align-items: center;
   /* display: initial; */
   width: 100%;
-  margin-top: 6%;
+  margin-top: 2%;
 }
 
 .home__companyDetail__second {
@@ -369,11 +377,20 @@
 
 .home__boxes__box__details {
   color: #777;
-  width: auto;
-  font-size: 18px;
-  text-align: justify;
-  font-family: serif;
-  line-height: 24px;
+    width: auto;
+    font-size: 19px;
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 33px;
+}
+
+
+.firstBoxdetail{
+  margin-bottom: 11%;
+}
+
+.secondBoxdetail{
+margin-bottom: 18%;
 }
 
 .home__offering__heading__firstHeading {
@@ -465,11 +482,12 @@
   }  
 
   .home__boxes__box{
-    width: 70%;
+    width: 100%;
     margin-right: auto;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-radius: 20px;
   }
 }
 
@@ -507,3 +525,54 @@
 
 }
 
+@media only screen and (max-width: 550px) {
+
+  .home__bottom__listingSetup__left{
+    margin-left: 0%;
+  }
+
+  .home__bottom__enhancedBrand{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .home__bottom__accountManagement__right {
+    margin-left: 0%;
+  }
+
+  .home__bottom__accountManagement__right__heading{
+    font-size: 17px;
+  }
+
+  .home__bottom__accountManagement__right__details{
+    font-size: 15px;
+  }
+
+  .home__bottom__enhancedBrand__left__heading{
+    font-size: 17px;
+  }
+
+  .home__bottom__enhancedBrand__left__details{
+    font-size: 15px;
+  }
+
+  .home__bottom__enhancedBrand__left {
+    margin-left: 0%;
+    width: 85%;
+}
+
+.home__bottom__enhancedBrand__right__img {
+  width: 59%;
+  margin-left: 0%;
+}
+
+.home__bottom__catalouging__right__heading {
+  font-size: 17px;
+}
+
+.home__bottom__catalouging__right__details {
+  font-size: 15px;
+}
+
+}

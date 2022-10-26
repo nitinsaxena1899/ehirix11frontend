@@ -3,7 +3,7 @@
     background-color: #243559;
     color: #e8e8e8;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@
 
 .topBar__right{
     display: flex;
-    margin-left: 50%;
+    /* margin-left: 50%; */
 }
 
 

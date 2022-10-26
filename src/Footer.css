@@ -15,12 +15,14 @@
 .foorter__firstDiv{
     text-align: initial;
     width: 30%;
-    margin: 0% 2%;
+    margin: -4% 2%;
 }
 
 .foorter__firstDiv__first__logo{
-    width: 100%;
+    width: 58%;
+    height: 250px;
     margin-bottom: 5%;
+    margin-left: -16%;
 }
 
 
@@ -28,10 +30,12 @@
     /* color: #EAEAEA; */
     color: black;
     font-family: "Rubik", Sans-serif;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 34px;
     letter-spacing: 0px;
     font-weight: 600;
+    margin-top: -17%;
+
 }
 
 
@@ -244,3 +248,45 @@
 }
 
 
+
+@media only screen and (max-width: 550px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foorter__firstDiv{
+        width: 100%;
+        text-align: center;
+    }
+
+    .foorter__firstDiv__first__details{
+        margin-top: -25%;
+    }
+
+    .foorter__secondDiv div{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .foorter__secondDiv{
+        text-align: center;
+    }
+
+    .footer__secondDiv__heading{
+        margin: 0% 2%;
+    }
+
+    .foorter__thirdDiv__first{
+        margin: 0%;
+
+    }
+
+    .foorter__thirdDiv__second{
+        margin: 0%;
+    }
+
+    .foorter__thirdDiv__third{
+        margin: 0%;
+    }
+}

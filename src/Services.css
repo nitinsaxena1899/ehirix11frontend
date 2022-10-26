@@ -26,22 +26,14 @@
 }
 
 .services__hiringServices__right__details {
-  /* color: #88858e;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 40px;
-    letter-spacing: 0px;
-    font-family: sans-serif; */
+ 
 
   font-size: 22px;
   font-family: sans-serif;
   line-height: 37px;
   text-align: justify;
-  /* margin-left: 11%; */
-  /* margin: auto; */
   justify-content: center;
   align-items: center;
-  /* display: initial; */
   margin-left: 13%;
   margin-top: 2%;
 }
@@ -105,25 +97,13 @@
   color: black;
 }
 
-/* .services__boxes__box1__details{
+@media only screen and (max-width: 550px) {
 
-    color:#ff7234
+  .services__hiringServices__right__heading{
+    font-size: 15px;
+  }
+
+  .services__hiringServices__right__details{
+    font-size: 14px;
+  }
 }
-
-.services__boxes__box1__details:hover{
-
-    color: black;
-} */
-
-/* .services__boxes__box2__details{ */
-
-/* color:#ff7234 */
-/* } */
-
-/* .services__boxes__box3__details{
-
-    color:#ff7234
-} */
-/* .services__boxes__box1__details{
-    color: #88858e;
-} */

@@ -32,3 +32,23 @@
   background-color: #ff7234;
   color: white;
 }
+
+
+@media only screen and (max-width: 550px) {
+.services__hiringServices__boxes__row{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.services__hiringServices__boxes__row{
+  width: 100%;
+  align-items: center;
+}
+
+.services__hiringServices__boxes__row__box{
+  width: 45%;
+  font-size: 11px;
+}
+
+}

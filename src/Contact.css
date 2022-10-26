@@ -63,3 +63,26 @@
     align-items: initial;
 }
 
+
+
+@media only screen and (max-width: 550px){
+.contact__right__form__input{
+    height: 40px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__right__form{
+    width: 75%;
+    margin: 0%;
+}
+
+.contact__right__form__button{
+    margin: auto;
+    padding: 0%;
+}
+
+}
