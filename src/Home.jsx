@@ -466,8 +466,7 @@ function Home() {
                 e-Commerce Solutions
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -486,8 +485,7 @@ function Home() {
                 Digital Marketing Manager/Executives
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -506,8 +504,7 @@ function Home() {
                 Software Developers
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -532,8 +529,7 @@ function Home() {
                 Chief Digital Officers
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </div>
@@ -549,8 +545,7 @@ function Home() {
                 HR &amp; Administration Manager/Executives
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </div>
@@ -566,8 +561,7 @@ function Home() {
                 Graphic Designer
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </div>
@@ -594,8 +588,7 @@ function Home() {
                 Content Writer
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -614,8 +607,7 @@ function Home() {
                 Ecommerce Manager/Executives
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -634,8 +626,7 @@ function Home() {
                 Operation Manager/Executives
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -662,8 +653,7 @@ function Home() {
                 QA Analyst
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -682,8 +672,7 @@ function Home() {
                 On- Demand IT
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>
@@ -702,8 +691,7 @@ function Home() {
                 hardware
               </h4>
               <p className="home__offering__boxes__row__box__data__details">
-                If your organization is planning to promote and sell produ
-                cts/services on the web, you need something more than
+                
               </p>
             </div>
           </motion.div>

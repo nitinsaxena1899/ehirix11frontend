@@ -41,10 +41,26 @@ function Footer() {
       <div className="foorter__secondDiv">
         <p className="footer__secondDiv__firstHeading">Explore</p>
         <div>
+        <Link to={"/"}>
           <p className="footer__secondDiv__heading">Home</p>
+          </Link>
+
+          <Link to={"/about"}>
           <p className="footer__secondDiv__heading">About Us</p>
-          <p className="footer__secondDiv__heading">Services</p>
-          <p className="footer__secondDiv__heading">Contact</p>
+          </Link>
+
+          <Link to={"/hiringservices"}>
+          <p className="footer__secondDiv__heading">Hirgin Services</p>
+          </Link>
+
+          <Link to={"/marketplaceservices"}>
+          <p className="footer__secondDiv__heading">Marketplace Services</p>
+          </Link>
+
+          <Link to={"/contact"}>
+          <p className="footer__secondDiv__heading">Contact Us</p>
+          </Link>
+
         </div>
       </div>
 

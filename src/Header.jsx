@@ -6,6 +6,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import LOGO from "./images/newlogo.png";
 import CloseIcon from "@mui/icons-material/Close";
+import { color } from "@mui/system";
 
 function Header() {
   const [dropDown, setDropdown] = useState(false);
@@ -49,6 +50,7 @@ function Header() {
             to={"/"}
             className="nav__links "
             activeClassName="active_link"
+            // style={{color:'red'}}
           >
             <p className="header__nav__heading "> Home </p>
           </NavLink>
