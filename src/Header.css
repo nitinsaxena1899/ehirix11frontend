@@ -23,6 +23,10 @@
   color: orange;
 }
 
+a:active{
+  color: orange;
+}
+
 .header__hamburgerIcon {
   display: none !important;
 }
