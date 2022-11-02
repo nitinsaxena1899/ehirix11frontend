@@ -11,6 +11,7 @@ import { Link, useNavigate } from "react-router-dom";
 // import LOGO from './images/Logo.jpg'
 // import LOGO from './images/LOGOtransparent.png'
 import LOGO from "./images/newlogo.png";
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 function Footer() {
   // useEffect(()=>{
@@ -41,25 +42,42 @@ function Footer() {
       <div className="foorter__secondDiv">
         <p className="footer__secondDiv__firstHeading">Explore</p>
         <div>
+
+          <div className="socailMediaDiv">
+          <KeyboardArrowRightIcon/>
         <Link to={"/"}>
           <p className="footer__secondDiv__heading">Home</p>
           </Link>
+          </div>
 
+
+          <div className="socailMediaDiv">
+          <KeyboardArrowRightIcon/>
           <Link to={"/about"}>
           <p className="footer__secondDiv__heading">About Us</p>
           </Link>
+          </div>
 
+          <div className="socailMediaDiv">
+          <KeyboardArrowRightIcon/>
           <Link to={"/hiringservices"}>
           <p className="footer__secondDiv__heading">Hirgin Services</p>
           </Link>
+          </div>
 
+          <div className="socailMediaDiv">
+          <KeyboardArrowRightIcon/>
           <Link to={"/marketplaceservices"}>
           <p className="footer__secondDiv__heading">Marketplace Services</p>
           </Link>
+          </div>
 
+          <div className="socailMediaDiv">
+          <KeyboardArrowRightIcon/>
           <Link to={"/contact"}>
           <p className="footer__secondDiv__heading">Contact Us</p>
           </Link>
+          </div>
 
         </div>
       </div>
@@ -84,6 +102,15 @@ function Footer() {
           </p>
         </div>
         
+      </div>
+
+      <div className="footer__fifthDiv">
+        <p className="footer__fifthDiv__heading">Request A CALLBACK</p>
+        <input placeholder="Name" className="footer__fifthDiv__inputs" />
+        <input placeholder="Email" className="footer__fifthDiv__inputs" />
+        <input placeholder="Phone No" className="footer__fifthDiv__inputs" />
+        <button>Submit</button>
+
       </div>
     </footer>
   );
