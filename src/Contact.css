@@ -83,6 +83,41 @@
 .contact__right__form__button{
     margin: auto;
     padding: 0%;
-}
+    height: 10vw;
 
 }
+
+/* .nameInput{
+    padding-left: 0;
+} */
+
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    .contact__right__form__input{
+        height: 10vw;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact__right__form{
+        width: 75%;
+        margin: 0%;
+    }
+    
+    .contact__right__form__button{
+        margin: auto;
+        padding: 0%;
+        height: 10vw;
+    
+    }
+    
+    /* .nameInput{
+        padding-left: 0;
+    } */
+}    

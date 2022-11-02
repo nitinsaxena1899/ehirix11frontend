@@ -60,9 +60,11 @@
  }
 
  .about__right {
-    position: absolute;
+    /* position: absolute;
     margin-top: 45%;
-    margin-left: 11%;
+    margin-left: 11%; */
+    width: 100vw;
+    margin: 0;
 
 }
 

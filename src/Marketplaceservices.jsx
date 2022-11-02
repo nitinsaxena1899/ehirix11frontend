@@ -207,7 +207,7 @@ ecommerce marketplace to get high rank and visibility of the products.</p>
      initial={'offscreen'}
      whileInView={'onscreen'}
      viewport={{ once: true, amount: 1 }}
-     transition={{ staggerChildren: 0.9 }}
+    //  transition={{ staggerChildren: 0.2 }}
      variants={accountmanagementRight}
     >
     <h1 className='home__bottom__accountManagement__right__heading'>Account Management</h1>

@@ -30,6 +30,9 @@ import ADMINISTRATORICON from "./images/administratoricon.png";
 import WRITERICON from "./images/writericon.png";
 import QAICON from "./images/qaicon.png";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -219,7 +222,7 @@ function Home() {
 
   return (
     <motion.div className="home">
-      <ImageSlider effectDelay={500} autoPlayDelay={2000}>
+      {/* <ImageSlider effectDelay={500} autoPlayDelay={2000}>
         <Slide>
           <img
             alt="img2"
@@ -244,7 +247,22 @@ function Home() {
             src="https://images.unsplash.com/photo-1663174495175-088493482631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
           />
         </Slide>
-      </ImageSlider>
+      </ImageSlider> */}
+
+<Carousel>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1663174495175-088493482631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
+                    {/* <p className="legend">Legend 1</p> */}
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1663174495175-088493482631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1663174495175-088493482631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
+                    {/* <p className="legend">Legend 3</p> */}
+                </div>
+            </Carousel>
 
       <motion.div
         // className="home__bannerDetail"
@@ -289,7 +307,7 @@ function Home() {
         className="home__companyDetail"
         initial={"offscreen"}
         whileInView={"onscreen"}
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ staggerChildren: 0.9 }}
         variants={companyDetails}
       >
@@ -416,7 +434,7 @@ function Home() {
             </motion.h1>
 
             <motion.p
-              className="home__boxes__box__details"
+              className="home__boxes__box__details thirdBoxDetail"
               variants={homeBoxessecondheading}
             >
               We are the one of the start-up company that will provide the

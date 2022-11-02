@@ -34,7 +34,7 @@
 }
 
 
-@media only screen and (max-width: 550px) {
+/* @media only screen and (max-width: 550px) {
 .services__hiringServices__boxes__row{
   display: flex;
   flex-direction: column;
@@ -46,9 +46,49 @@
   align-items: center;
 }
 
-.services__hiringServices__boxes__row__box{
+/* .services__hiringServices__boxes__row__box{
   width: 45%;
   font-size: 11px;
+} */
+
+/* }  */
+
+@media only screen and (max-width: 800px){
+  .services__hiringServices__boxesDiv{
+    margin-top: -10%;
+  }
+
+  .services__hiringServices__boxes__row{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .services__hiringServices__boxes__row{
+    width: 100%;
+    align-items: center;
+  }
+
+  .services__hiringServices__boxes__row__box {
+    width: 70%;
+    font-size: 3.3vw;
+    margin: 3% 0%;
+    font-weight: 700;
+    height: 8vw;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: none;
+    border: 1px solid black;
 }
 
+.computerBox{
+  margin: -20% 0%;
+
+}
+.operationBox{
+  margin: -20% 0%;
+
+}
 }

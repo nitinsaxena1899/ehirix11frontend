@@ -478,7 +478,7 @@ function Hiringservices() {
       </motion.div>
 
       <motion.div
-      // className="services__hiringServices__boxes"
+      className="services__hiringServices__boxesDiv"
       // initial={'offscreen'}
       // whileInView={'onscreen'}
       // viewport={{ once: true, amount: 1 }}
@@ -546,7 +546,7 @@ function Hiringservices() {
             Graphic Designer
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
+          <motion.div className="services__hiringServices__boxes__row__box operationBox"
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
@@ -654,7 +654,7 @@ function Hiringservices() {
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
+          <motion.div className="services__hiringServices__boxes__row__box computerBox"
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}

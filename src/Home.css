@@ -8,6 +8,10 @@
   margin: auto;
 }
 
+.carousel .thumbs {
+display: none !important;
+}
+
 .webDevelopmentservices {
   color: #ff7234;
 }
@@ -386,11 +390,18 @@
 
 
 .firstBoxdetail{
-  margin-bottom: 11%;
+    margin-bottom: 15%;
+
 }
 
 .secondBoxdetail{
-margin-bottom: 18%;
+  margin-bottom: 6%;
+
+}
+
+.thirdBoxDetail{
+  margin-bottom: 15%;
+
 }
 
 .home__offering__heading__firstHeading {
@@ -485,8 +496,8 @@ margin-bottom: 18%;
     width: 100%;
     margin-right: auto;
     margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     border-radius: 20px;
   }
 }
@@ -522,7 +533,10 @@ margin-bottom: 18%;
     width: 65%;
     margin: 6% 1%;
   }
-
+  
+  .home__boxes__box__details {
+font-size: 4.6vw;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -551,6 +565,8 @@ margin-bottom: 18%;
 
   .home__bottom__accountManagement__right__details{
     font-size: 15px;
+    margin: 4%;
+    
   }
 
   .home__bottom__enhancedBrand__left__heading{
@@ -577,6 +593,11 @@ margin-bottom: 18%;
 
 .home__bottom__catalouging__right__details {
   font-size: 15px;
+}
+
+.home__offering__boxes__row__box{
+  border: 2px solid #ff9a6e;
+  box-shadow: none;
 }
 
 }

@@ -168,7 +168,8 @@ color: #ff7234;
   }
 
   .home__companyInfo {
-    display: none;
+    /* display: none; */
+    margin-top: 15%;
   }
 
 }
@@ -190,7 +191,7 @@ color: #ff7234;
   }
 
   .home__companyInfo {
-    display: none;
+    /* display: none; */
   }
 
   .header__hamburgerIcon {
@@ -229,6 +230,7 @@ color: #ff7234;
 
   .home__companyInfo {
     font-size: 12px !important;
+    margin-top: -10%;
   }
 
   .readmore__button {
@@ -239,10 +241,14 @@ color: #ff7234;
   }
 
   .home__companyDetail__first {
-    font-size: 15px !important;
+    font-size: 4.6vw !important;
   }
 
   .home__companyDetail__second {
-    font-size: 15px !important;
+    font-size: 4.6vw !important;
+  }
+
+  .home__offering__boxes__row__box__data__heading{
+    font-size: 4.6vw !important;
   }
 }

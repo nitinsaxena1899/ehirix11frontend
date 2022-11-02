@@ -21,9 +21,9 @@ function Contact() {
 
     <div className='contact__right__form__name'>
 
-    <input className='contact__right__form__input' placeholder='First Name'/>
+    <input className='contact__right__form__input nameInput' placeholder='First Name'/>
 
-    <input className='contact__right__form__input' placeholder='Last Name'/>
+    <input className='contact__right__form__input nameInput' placeholder='Last Name'/>
 
     </div>
 

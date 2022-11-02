@@ -43,7 +43,7 @@ function About() {
 
 
   const aboutRightDetails = {
-    offscreen: { y: 200, opacity: 0 },
+    offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
@@ -88,7 +88,7 @@ function About() {
     <motion.p className='about__right__details'
      initial={'offscreen'}
      whileInView={'onscreen'}
-     viewport={{ once: true, amount: 1 }}
+    //  viewport={{ once: true, amount:  }}
      transition={{ staggerChildren: 0.9 }}
      variants={aboutRightDetails}
     >
