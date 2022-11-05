@@ -517,7 +517,7 @@ function Hiringservices() {
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
+           transition={{ staggerChildren: 0.4 }}
            variants={serviceRow2box3}
           >
             Ecommerce Manager/Executives
@@ -582,7 +582,7 @@ function Hiringservices() {
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
+           transition={{ staggerChildren: 0.4 }}
            variants={serviceRow2box9}
           >
             Electrical Engineers & Designers
@@ -604,7 +604,7 @@ function Hiringservices() {
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
+           transition={{ staggerChildren: 0.4 }}
            variants={serviceRow2box11}
           >
             Account Manager/Executives
@@ -614,7 +614,7 @@ function Hiringservices() {
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
+           transition={{ staggerChildren: 0.4 }}
            variants={serviceRow2box12}
           >
             Human Resources Recruiting
@@ -626,7 +626,7 @@ function Hiringservices() {
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
+           transition={{ staggerChildren: 0.4 }}
            variants={serviceRow2box13}
           >
             On- Demand IT
@@ -700,7 +700,7 @@ function Hiringservices() {
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
+           transition={{ staggerChildren: 0.4 }}
            variants={serviceRow2box20}
           >
             SMM/Executive
@@ -754,7 +754,7 @@ function Hiringservices() {
            initial={'offscreen'}
            whileInView={'onscreen'}
            viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
+           transition={{ staggerChildren: 0.4 }}
            variants={serviceRow2box25}
           >
             Customer Support M/E

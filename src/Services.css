@@ -3,6 +3,7 @@
   padding-right: 2%;
   background-color: white;
   padding-bottom: 5%;
+  overflow: hidden;
 }
 
 .services__hiringServices__right {

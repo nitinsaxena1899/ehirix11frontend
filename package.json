@@ -1,6 +1,7 @@
 {
   "name": "try-frontend",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -14,6 +15,7 @@
     "react": "^18.2.0",
     "react-auto-image-slider": "^1.0.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -44,6 +46,6 @@
   },
   "engines": {
     "node": "v16.15.1",
-    "npm" : "8.13.2"
+    "npm": "8.13.2"
   }
 }

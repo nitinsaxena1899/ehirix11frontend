@@ -104,7 +104,7 @@ function Header() {
             <div className="sidebarMenu">
               <div className="sidebarMenu__nav">
                 <NavLink to={"/"} className="sidebarMenu__nav__links ">
-                  <p className="sidebarMenu__nav__heading "  onClick={()=> setOpensidemenu(false)}> Home </p>
+                  <a className="sidebarMenu__nav__heading "  onClick={()=> setOpensidemenu(false)}> Home </a>
                 </NavLink>
 
                 <NavLink to={"/about"} className="sidebarMenu__nav__links ">

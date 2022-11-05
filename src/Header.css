@@ -19,13 +19,23 @@
   text-decoration: none;
 }
 
-.active_link {
+/* .active_link {
   color: orange;
+} */
+
+a :active{
+  color: red !important;
 }
 
-a:active{
-  color: orange;
+p:active{
+  color: orange !important;
 }
+
+
+/* .sidebarMenu__nav Navlink:active{
+  color: orange !important;
+
+} */
 
 .header__hamburgerIcon {
   display: none !important;
