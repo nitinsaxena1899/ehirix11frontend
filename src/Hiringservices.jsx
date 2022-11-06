@@ -399,7 +399,7 @@ function Hiringservices() {
         className="services__hiringServices"
         initial={"offscreen"}
         whileInView={"onscreen"}
-        viewport={{ once: true, amount: 1 }}
+        viewport={{ once: true, amount: 0.5 }}
         transition={{ staggerChildren: 0.9 }}
         variants={hiringServices}
       >

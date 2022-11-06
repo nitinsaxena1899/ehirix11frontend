@@ -8,9 +8,9 @@
 
 
 @media only screen and (max-width: 550px) {
-    .marketplaceservices{
+    /* .marketplaceservices{
         overflow-x: hidden;
-    }
+    } */
 
     .home__bottom__listingSetup{
         display: flex;
