@@ -298,7 +298,7 @@ function Home() {
           experience for web users.
         </motion.p>
 
-        <Link to="/services">
+        <Link to="/marketplaceservices">
           <button className="readmore__button">Read more...</button>
         </Link>
       </motion.div>

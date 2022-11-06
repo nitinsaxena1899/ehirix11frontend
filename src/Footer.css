@@ -270,6 +270,11 @@ text-decoration: none;
 
 }
 
+.footer__fifthDiv__form{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .footer__fifthDiv__heading{
     color: white;
@@ -298,6 +303,7 @@ color: white;
     padding: 1vw;
     margin: 2% 0%;
     color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 700px){

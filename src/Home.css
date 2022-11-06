@@ -136,6 +136,11 @@ display: none !important;
   margin-right: 10%;
 }
 
+
+.accountRegistrationDetails{
+  width: 125%;
+}
+
 .home__bottom__accountRegistration__left__img {
   width: 60%;
   margin-left: 20%;
@@ -152,8 +157,12 @@ display: none !important;
 
 .home__bottom__listingSetup__right__img {
   width: 72%;
+  margin-right: -5%;
+  /* margin-top: 4%;
+
+  /* width: 72%;
   margin-right: 6%;
-  margin-top: 4%;
+  margin-top: 4%; */
 }
 
 .home__bottom__listingSetup__heading {
@@ -181,6 +190,7 @@ display: none !important;
 
 .home__bottom__accountManagement {
   display: flex;
+  justify-content: space-between;
 }
 
 .home__bottom__accountManagement__right__heading {
@@ -207,20 +217,36 @@ display: none !important;
 }
 
 .home__bottom__accountManagement__left {
+
   margin-top: 4%;
-  margin-left: -20%;
+    /* display: flex; */
+    /* margin-left: -20%; */
+    /* width: 100%; */
+    width: fit-content;
+
+
+  /* margin-top: 4%;
+  display: flex; */
+  /* margin-left: -20%; */
 }
 
-.home__bottom__accountManagement__left__img {
-  margin-right: 10%;
+/* .home__bottom__accountManagement__left__img { */
+ /* margin-right: 22%; */
+ /* margin-top: -4%;
+ width: 30%;
+ margin-left: 4%;
+ height: 100%; */
+
+  /* margin-right: 10%;
   margin-top: -35%;
   width: 137%;
   margin-left: 147%;
-  height: 151%;
-}
+  height: 151%; */
+/* } */
 
 .home__bottom__accountManagement__right {
-  margin-left: 40%;
+  margin-left: 67%;
+  width: 43%;
 }
 
 .home__bottom__enhancedBrand {
@@ -556,7 +582,8 @@ font-size: 4.6vw;
   }
 
   .home__bottom__accountManagement__right {
-    margin-left: 0%;
+    margin-left: 0% !important;
+    width: 100%;
   }
 
   .home__bottom__accountManagement__right__heading{
@@ -600,4 +627,27 @@ font-size: 4.6vw;
   box-shadow: none;
 }
 
+.accountRegistrationDetails{
+  width: 90%;
+}
+
+
+}
+
+
+.list{
+  display: flex;
+  align-items: center;
+}
+
+.home__bottom__accountManagement__right {
+  margin-left: -67%;
+}
+
+.home__bottom__accountManagement__left__img {
+  /* margin-right: 22%; */
+  margin-top: -4%;
+  width: 30%;
+  margin-left: -56%;
+  height: 100%;
 }

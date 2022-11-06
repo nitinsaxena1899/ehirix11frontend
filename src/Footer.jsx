@@ -11,7 +11,7 @@ import { Link, useNavigate } from "react-router-dom";
 // import LOGO from './images/Logo.jpg'
 // import LOGO from './images/LOGOtransparent.png'
 import LOGO from "./images/newlogo.png";
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 function Footer() {
   // useEffect(()=>{
@@ -42,43 +42,40 @@ function Footer() {
       <div className="foorter__secondDiv">
         <p className="footer__secondDiv__firstHeading">Explore</p>
         <div>
-
           <div className="socailMediaDiv">
-          <KeyboardArrowRightIcon/>
-        <Link to={"/"}>
-          <p className="footer__secondDiv__heading">Home</p>
-          </Link>
-          </div>
-
-
-          <div className="socailMediaDiv">
-          <KeyboardArrowRightIcon/>
-          <Link to={"/about"}>
-          <p className="footer__secondDiv__heading">About Us</p>
-          </Link>
+            <KeyboardArrowRightIcon />
+            <Link to={"/"}>
+              <p className="footer__secondDiv__heading">Home</p>
+            </Link>
           </div>
 
           <div className="socailMediaDiv">
-          <KeyboardArrowRightIcon/>
-          <Link to={"/hiringservices"}>
-          <p className="footer__secondDiv__heading">Hirgin Services</p>
-          </Link>
+            <KeyboardArrowRightIcon />
+            <Link to={"/about"}>
+              <p className="footer__secondDiv__heading">About Us</p>
+            </Link>
           </div>
 
           <div className="socailMediaDiv">
-          <KeyboardArrowRightIcon/>
-          <Link to={"/marketplaceservices"}>
-          <p className="footer__secondDiv__heading">Marketplace Services</p>
-          </Link>
+            <KeyboardArrowRightIcon />
+            <Link to={"/hiringservices"}>
+              <p className="footer__secondDiv__heading">Hirgin Services</p>
+            </Link>
           </div>
 
           <div className="socailMediaDiv">
-          <KeyboardArrowRightIcon/>
-          <Link to={"/contact"}>
-          <p className="footer__secondDiv__heading">Contact Us</p>
-          </Link>
+            <KeyboardArrowRightIcon />
+            <Link to={"/marketplaceservices"}>
+              <p className="footer__secondDiv__heading">Marketplace Services</p>
+            </Link>
           </div>
 
+          <div className="socailMediaDiv">
+            <KeyboardArrowRightIcon />
+            <Link to={"/contact"}>
+              <p className="footer__secondDiv__heading">Contact Us</p>
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -87,7 +84,7 @@ function Footer() {
 
         <div className="foorter__thirdDiv__first">
           <CallIcon className="foorter__thirdDiv__first__icon" />
-          <p className="foorter__thirdDiv__first__detail">+91-9910679045</p>
+          <p className="foorter__thirdDiv__first__detail">+91-7777777777</p>
         </div>
 
         <div className="foorter__thirdDiv__second">
@@ -98,19 +95,33 @@ function Footer() {
         <div className="foorter__thirdDiv__third">
           <LocationOnIcon className="foorter__thirdDiv__third__icon" />
           <p className="foorter__thirdDiv__third__detail">
-            Ehirix company address
+            Bhiwani Haryana 127021
           </p>
         </div>
-        
       </div>
 
       <div className="footer__fifthDiv">
         <p className="footer__fifthDiv__heading">Request A CALLBACK</p>
-        <input placeholder="Name" className="footer__fifthDiv__inputs" />
-        <input placeholder="Email" className="footer__fifthDiv__inputs" />
-        <input placeholder="Phone No" className="footer__fifthDiv__inputs" />
-        <button>Submit</button>
-
+        <form action="https://formspree.io/f/xknepdke" method="POST" className="footer__fifthDiv__form">
+          <input
+            placeholder="Name"
+            name="Name"
+            className="footer__fifthDiv__inputs"
+          />
+          <input
+            placeholder="Email"
+            name="email"
+            type="email"
+            className="footer__fifthDiv__inputs"
+          />
+          <input
+            placeholder="Phone No"
+            type="number"
+            name="number"
+            className="footer__fifthDiv__inputs"
+          />
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </footer>
   );

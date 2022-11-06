@@ -360,7 +360,7 @@ function Hiringservices() {
   };
 
   const serviceRow2box25 = {
-    offscreen: { y: 100, opacity: 0 },
+    offscreen: { y: 10, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
@@ -450,7 +450,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.9 }}
             variants={serviceRow1box1}
           >
@@ -472,7 +472,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.4 }}
             variants={serviceRow2box3}
           >
@@ -542,7 +542,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.4 }}
             variants={serviceRow2box9}
           >
@@ -566,7 +566,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.4 }}
             variants={serviceRow2box11}
           >
@@ -577,7 +577,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.4 }}
             variants={serviceRow2box12}
           >
@@ -590,7 +590,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.4 }}
             variants={serviceRow2box13}
           >
@@ -671,7 +671,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ staggerChildren: 0.4 }}
             variants={serviceRow2box20}
           >
@@ -730,7 +730,7 @@ function Hiringservices() {
             className="services__hiringServices__boxes__row__box"
             initial={"offscreen"}
             whileInView={"onscreen"}
-            viewport={{ once: true, amount: 1 }}
+            viewport={{ once: true, amount: 0 }}
             transition={{ staggerChildren: 0.4 }}
             variants={serviceRow2box25}
           >
