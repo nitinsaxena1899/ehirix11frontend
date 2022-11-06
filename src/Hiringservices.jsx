@@ -1,38 +1,36 @@
-import React, { useEffect } from 'react';
-import './Hiringservices.css';
-import './Services.css';
-import SERVICES from './images/services.jpg';
-import { motion, variants } from 'framer-motion';
+import React, { useEffect } from "react";
+import "./Hiringservices.css";
+import "./Services.css";
+import SERVICES from "./images/services.jpg";
+import { motion, variants } from "framer-motion";
 
 function Hiringservices() {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
 
-
-
   const hiringServices = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        // rotate: [0, 360],
+      // rotate: [0, 360],
       transition: {
         // type: 'spring',
         // bounce: 0.4,
         duration: 1,
       },
     },
-  }
+  };
 
   const serviceRow1box1 = {
     offscreen: { x: -100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
@@ -44,307 +42,275 @@ function Hiringservices() {
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box3 = {
     offscreen: { x: 100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
-
 
   const serviceRow2box4 = {
     offscreen: { y: -100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
-
 
   const serviceRow2box5 = {
     offscreen: { x: -100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box6 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box7 = {
     offscreen: { x: -100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box8 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
-
 
   const serviceRow2box9 = {
     offscreen: { x: 100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
-
 
   const serviceRow2box10 = {
     offscreen: { y: -100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
-
 
   const serviceRow2box11 = {
     offscreen: { x: 100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
-
 
   const serviceRow2box12 = {
     offscreen: { x: 100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box13 = {
     offscreen: { x: 100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box14 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
 
-
-  
   const serviceRow2box15 = {
     offscreen: { x: -100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
 
-
-  
   const serviceRow2box16 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
 
-
-  
   const serviceRow2box17 = {
     offscreen: { x: -100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
 
-
-  
   const serviceRow2box18 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
 
-
-
-  
   const serviceRow2box19 = {
     offscreen: { y: -100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
 
-
-  
   const serviceRow2box20 = {
     offscreen: { x: 100, opacity: 0 },
     onscreen: {
       x: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box21 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
@@ -356,104 +322,90 @@ function Hiringservices() {
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box23 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
 
   const serviceRow2box24 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
-
-
 
   const serviceRow2box25 = {
     offscreen: { y: 100, opacity: 0 },
     onscreen: {
       y: 0,
       opacity: 1,
-        rotate: [0, 360],
+      rotate: [0, 360],
       transition: {
-        type: 'spring',
+        type: "spring",
         bounce: 0.4,
         duration: 1,
       },
     },
   };
 
-
- 
-
-
-
-
-
-
-
-
-
-    const hiringServiceleft = {
-      offscreen: { x: -50, opacity: 0 },
-      onscreen: {
-        x: 0,
-        opacity: 1,
-        rotate: [0, 10, 0],
-        transition: {
-          type: 'spring',
-          bounce: 0.4,
-          duration: 1,
-        },
+  const hiringServiceleft = {
+    offscreen: { x: -50, opacity: 0 },
+    onscreen: {
+      x: 0,
+      opacity: 1,
+      rotate: [0, 10, 0],
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 1,
       },
-    };
+    },
+  };
 
   return (
     <motion.div
       className="services"
-    //   initial={'offscreen'}
-    //   whileInView={'onscreen'}
-    //   viewport={{ once: true, amount: 1 }}
-    //   transition={{ staggerChildren: 0.9 }}
+      //   initial={'offscreen'}
+      //   whileInView={'onscreen'}
+      //   viewport={{ once: true, amount: 1 }}
+      //   transition={{ staggerChildren: 0.9 }}
     >
-      <motion.div className="services__hiringServices"
-       initial={'offscreen'}
-       whileInView={'onscreen'}
-       viewport={{ once: true, amount: 1 }}
-       transition={{ staggerChildren: 0.9 }}
-       variants={hiringServices}
+      <motion.div
+        className="services__hiringServices"
+        initial={"offscreen"}
+        whileInView={"onscreen"}
+        viewport={{ once: true, amount: 1 }}
+        transition={{ staggerChildren: 0.9 }}
+        variants={hiringServices}
       >
         <motion.div
           className="services__hiringServices__left"
-            // variants={hiringServiceleft}
+          // variants={hiringServiceleft}
         >
           {/* <motion.img className="services__hiringServices__img" src={SERVICES} 
            variants={hiringServiceleft}
@@ -466,23 +418,26 @@ function Hiringservices() {
           </h1>
 
           <p className="services__hiringServices__right__details">
-            We are emerging as the best blockchain technology specialist in the
-            nation and abroad. Our services cover a whole programming
-            improvement life cycle that meets different business needs.With our
-            expertise and experience in Blockchain-as-a-service, JNC TechLabs
-            assists you with the development of your blockchain-based
-            decentralized applications (dApps), smart contracts, and a wide
-            range of blockchain structures and their oversight.
+            We are the one of the start-up company that will provide the
+            staffing solutions at this place. ehirix solutions is a combination
+            of talents, professional management and will provide services to
+            multiple industries. We are here with the Innovative approach that
+            will create a great relationship b/w Employer, Employee and ehirix
+            solutions. We provide the solutions for all type of business (Large
+            scale and Medium Scale and Start-up). Our expert management having a
+            great exposure for the placing the right candidate at the right
+            time. Our main motive is to satisfy the clients at any cost within
+            the given TAT (Turn-Around-Time).
           </p>
         </div>
       </motion.div>
 
       <motion.div
-      className="services__hiringServices__boxesDiv"
-      // initial={'offscreen'}
-      // whileInView={'onscreen'}
-      // viewport={{ once: true, amount: 1 }}
-      // transition={{ staggerChildren: 0.9 }}
+        className="services__hiringServices__boxesDiv"
+        // initial={'offscreen'}
+        // whileInView={'onscreen'}
+        // viewport={{ once: true, amount: 1 }}
+        // transition={{ staggerChildren: 0.9 }}
       >
         <motion.div
           className="services__hiringServices__boxes__row"
@@ -493,8 +448,8 @@ function Hiringservices() {
         >
           <motion.div
             className="services__hiringServices__boxes__row__box"
-            initial={'offscreen'}
-            whileInView={'onscreen'}
+            initial={"offscreen"}
+            whileInView={"onscreen"}
             viewport={{ once: true, amount: 1 }}
             transition={{ staggerChildren: 0.9 }}
             variants={serviceRow1box1}
@@ -504,8 +459,8 @@ function Hiringservices() {
 
           <motion.div
             className="services__hiringServices__boxes__row__box"
-            initial={'offscreen'}
-            whileInView={'onscreen'}
+            initial={"offscreen"}
+            whileInView={"onscreen"}
             viewport={{ once: true, amount: 1 }}
             transition={{ staggerChildren: 0.9 }}
             variants={serviceRow2box2}
@@ -513,249 +468,271 @@ function Hiringservices() {
             HR & Administration Manager/Executives
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.4 }}
-           variants={serviceRow2box3}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.4 }}
+            variants={serviceRow2box3}
           >
             Ecommerce Manager/Executives
           </motion.div>
-
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box4}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box4}
           >
             Software Developers
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box5}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box5}
           >
             Graphic Designer
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box operationBox"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box6}
+          <motion.div
+            className="services__hiringServices__boxes__row__box operationBox"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box6}
           >
             Operation Manager/Executives
           </motion.div>
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box7}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box7}
           >
             Chief Digital Officers
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box8}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box8}
           >
             Content Writer
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.4 }}
-           variants={serviceRow2box9}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.4 }}
+            variants={serviceRow2box9}
           >
             Electrical Engineers & Designers
           </motion.div>
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box10}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box10}
           >
             Networking Management
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.4 }}
-           variants={serviceRow2box11}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.4 }}
+            variants={serviceRow2box11}
           >
             Account Manager/Executives
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.4 }}
-           variants={serviceRow2box12}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.4 }}
+            variants={serviceRow2box12}
           >
             Human Resources Recruiting
           </motion.div>
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.4 }}
-           variants={serviceRow2box13}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.4 }}
+            variants={serviceRow2box13}
           >
             On- Demand IT
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box14}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box14}
           >
             Sales Manager/Executives
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box15}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box15}
           >
             Civil & Structural Engineers
           </motion.div>
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box computerBox"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box16}
+          <motion.div
+            className="services__hiringServices__boxes__row__box computerBox"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box16}
           >
             computer software
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box17}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box17}
           >
             B2B Area Sales Manager/Executives
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box18}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box18}
           >
             Payroll Accountant/Analyst
           </motion.div>
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box19}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box19}
           >
             hardware
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.4 }}
-           variants={serviceRow2box20}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.4 }}
+            variants={serviceRow2box20}
           >
             SMM/Executive
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box21}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box21}
           >
             Business Development Manager/Executives
           </motion.div>
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box22}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box22}
           >
             Database Administrator
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box23}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box23}
           >
             Chartered Accountant
           </motion.div>
 
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.9 }}
-           variants={serviceRow2box24}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.9 }}
+            variants={serviceRow2box24}
           >
             Product Manager
           </motion.div>
         </motion.div>
 
         <motion.div className="services__hiringServices__boxes__row">
-          <motion.div className="services__hiringServices__boxes__row__box"
-           initial={'offscreen'}
-           whileInView={'onscreen'}
-           viewport={{ once: true, amount: 1 }}
-           transition={{ staggerChildren: 0.4 }}
-           variants={serviceRow2box25}
+          <motion.div
+            className="services__hiringServices__boxes__row__box"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{ once: true, amount: 1 }}
+            transition={{ staggerChildren: 0.4 }}
+            variants={serviceRow2box25}
           >
             Customer Support M/E
           </motion.div>
