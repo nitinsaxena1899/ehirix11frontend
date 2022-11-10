@@ -84,7 +84,7 @@ function Footer() {
 
         <div className="foorter__thirdDiv__first">
           <CallIcon className="foorter__thirdDiv__first__icon" />
-          <p className="foorter__thirdDiv__first__detail">+91-7777777777</p>
+          <p className="foorter__thirdDiv__first__detail">+91-9896114784</p>
         </div>
 
         <div className="foorter__thirdDiv__second">

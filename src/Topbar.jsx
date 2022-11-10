@@ -11,9 +11,9 @@ function Topbar() {
   return (
     <div className='topBar'>
 
-        <div className='topBar__left'>
+        <div className='topBar__left' style={{marginTop: '1%'}}>
             <CallIcon className='topBar__leftcallIcon'/>
-            <p className='phoneNomber'>7777777777</p>
+            <p className='phoneNomber' >9896114784</p>
 
         </div>
 

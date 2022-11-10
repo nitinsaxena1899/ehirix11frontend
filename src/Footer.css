@@ -4,7 +4,7 @@
     background: #071333;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     /* position: absolute; */
-    width: 92%;
+    width: 100%;
     padding: 4%;
     display: flex;
     bottom: 0px;
@@ -116,8 +116,9 @@
 
 }
 
-.socailMediaDiv a{
-text-decoration: none;
+.socailMediaDiv a {
+    text-decoration: none;
+    margin-top: 8%;
 }
 
 .footer__secondDiv__heading{
@@ -307,6 +308,10 @@ color: white;
 }
 
 @media only screen and (max-width: 700px){
+    .socailMediaDiv a {
+        text-decoration: none;
+        margin-top: 4%;
+    }
     /* .footer{
         display: flex;
         flex-direction: column;

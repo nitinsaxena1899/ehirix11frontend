@@ -31,7 +31,8 @@ import WRITERICON from "./images/writericon.png";
 import QAICON from "./images/qaicon.png";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+// import { Carousel } from 'react-responsive-carousel';
+import Carousel from 'react-bootstrap/Carousel';
 
 function Home() {
   useEffect(() => {
@@ -249,23 +250,57 @@ function Home() {
         </Slide>
       </ImageSlider> */}
 
-<Carousel>
+{/*<Carousel>
                 <div>
                     <img src="https://images.unsplash.com/photo-1663174495175-088493482631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
-                    {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div>
                     <img src="https://images.unsplash.com/photo-1663174495175-088493482631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
-                    {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div>
                     <img src="https://images.unsplash.com/photo-1663174495175-088493482631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
-                    {/* <p className="legend">Legend 3</p> */}
                 </div>
-            </Carousel>
+    </Carousel> */}
 
-      <motion.div
-        // className="home__bannerDetail"
+<Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://img.freepik.com/free-photo/coding-man_1098-18084.jpg?w=996&t=st=1668104670~exp=1668105270~hmac=f6b0eb98e3d05bb64b6dcacc2b0a4c79ef2d920673cf7f698871b26793e5bc77"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Website Development</h3>
+          <p>And Designing</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://img.freepik.com/free-photo/businessman-businesswoman-handshaking-business-meeting-sitting-office_1163-4241.jpg?w=996&t=st=1668104753~exp=1668105353~hmac=93185c620d234822686887bb628df67b15c229e7c8a0ff06a4ed79b413b80f80"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Hiring</h3>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://img.freepik.com/free-photo/businesspeople-working-finance-accounting-analyze-financial-graph-budget-planning-future-office-room_74952-1395.jpg?w=996&t=st=1668104463~exp=1668105063~hmac=c333a92b2079579d10881298bd603d94c3a3dfc5f0f7a2dd9ed7b23b340b711e"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Account Management</h3>
+         
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+     {/*<motion.div
         className="home__companyInfo"
         initial={"offscreen"}
         whileInView={"onscreen"}
@@ -275,33 +310,22 @@ function Home() {
       >
         <motion.h2
           className="home__bannerDetail__heading"
-          // initial={'offscreen'}
-          // whileInView={'onscreen'}
-          // viewport={{ once: true, amount: 1 }}
-          // transition={{ staggerChildren: 0.9 }}
-          // variants={homeCompanyinfo}
+          
         >
           Web Developmen service
         </motion.h2>
         <motion.p
-        // className="home__companyInfo"
-        // initial={'offscreen'}
-        // whileInView={'onscreen'}
-        // viewport={{ once: true, amount: 1 }}
-        // transition={{ staggerChildren: 0.9 }}
-        // variants={homeCompanyinfo}
+       
         >
-          {/* <span className="webDevelopmentservices"> */}
           Web development services
-          {/* </span>{' '} */}
           help create all types of web-based software and ensure great
           experience for web users.
-        </motion.p>
+  </motion.p>
 
         <Link to="/marketplaceservices">
           <button className="readmore__button">Read more...</button>
         </Link>
-      </motion.div>
+  </motion.div>*/}
 
       <motion.div
         className="home__companyDetail"

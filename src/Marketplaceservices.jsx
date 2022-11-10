@@ -264,7 +264,7 @@ function Marketplaceservices() {
               <FiberManualRecordIcon /> Return management
             </div>
             <div>
-              <FiberManualRecordIcon /> order Management
+              <FiberManualRecordIcon /> Order anagement
             </div>
             <div>
               <FiberManualRecordIcon /> ODR (Order defective Rate)

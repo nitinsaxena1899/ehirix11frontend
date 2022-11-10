@@ -20,7 +20,7 @@
   box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
     rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
     rgb(0 0 0 / 9%) 0px -3px 5px;
-  width: 18%;
+  width: 27%;
   font-size: 18px;
   font-weight: 500;
   border-radius: 35px;
@@ -70,17 +70,19 @@
   }
 
   .services__hiringServices__boxes__row__box {
-    width: 70%;
-    font-size: 3.3vw;
-    margin: 3% 0%;
-    font-weight: 700;
-    height: 8vw;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    box-shadow: none;
-    border: 1px solid black;
+    
+      width: 70%;
+      font-size: 3.6vw;
+      margin: 3% 0%;
+      font-weight: 700;
+      height: 13vw;
+      align-items: center;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      box-shadow: none;
+      border: 1px solid black;
+  
 }
 
 .computerBox{

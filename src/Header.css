@@ -94,7 +94,7 @@ p:active{
 }
 
 .dropDown__list {
-  margin-left: -34px;
+  margin-left: -25px;
   margin-top: 8px;
   margin-bottom: 6px;
   margin-right: 16px;
@@ -111,7 +111,7 @@ color: #ff7234;
 
 .sidebarMenu {
   position: absolute;
-  z-index: 1;
+  z-index: 100;
   background-color: white;
   color: black;
   width: 100%;
@@ -210,14 +210,14 @@ color: #ff7234;
 
   .header__hamburgerIcon {
     display: block !important;
-    margin-right: 4%;
+    margin-right: 10%;
     width: 40px !important;
     height: 41px !important;
   }
 
   .header__img {
     width: 65%;
-    margin-left: -112%;
+    margin-left: -100%;
     margin-top: -21%;
     margin-bottom: -19%;
 }

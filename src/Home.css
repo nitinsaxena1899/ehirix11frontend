@@ -8,6 +8,22 @@
   margin: auto;
 }
 
+/* .w-100 {
+  max-width: 90%!important;
+  height: 32vw !important;
+  margin: auto !important;
+} */
+
+.carousel-caption h3{
+  font-weight: 700;
+  color: black !important;
+}
+
+.carousel-caption p{
+  font-weight: 700;
+  color: black !important;
+}
+
 .carousel .thumbs {
 display: none !important;
 }
@@ -319,7 +335,7 @@ display: none !important;
 .home__companyDetail {
   padding-left: 2%;
   padding-right: 2%;
-  width: 85%;
+  width: 87%;
   margin: auto;
   margin-top: 2%;
     box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
@@ -533,6 +549,12 @@ display: none !important;
   .home__offering__boxes__row__box__img{
     left: -100px;
   }
+
+  /* .w-100 {
+    max-width: 100%!important;
+    height: 100% !important;
+    margin: auto !important;
+  } */
 
 }
 
