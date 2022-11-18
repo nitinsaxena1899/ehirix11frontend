@@ -1,11 +1,11 @@
-.about{
+.about {
     background-color: white;
     display: flex;
     height: 100vh;
 }
 
 
-.about__img{
+.about__img {
     width: 260%;
     text-align: initial;
     display: flex;
@@ -14,11 +14,11 @@
 }
 
 
-.about__right{
+.about__right {
     margin-left: 20%;
 }
 
-.about__right__details{
+.about__right__details {
     font-size: 19px;
     font-family: sans-serif;
     line-height: 37px;
@@ -32,7 +32,7 @@
 
 
 
-.about__right__heading{
+.about__right__heading {
     font-family: cursive;
     text-align: initial;
     margin-left: 9%;
@@ -42,46 +42,45 @@
 
 
 
-@media only screen and (max-width: 450px){
-    .about{
+@media only screen and (max-width: 450px) {
+    .about {
         padding-bottom: 70% !important;
     }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px) {
 
-.about{
-    flex-direction: column;
-    padding-bottom: 30%;
- }
+    .about {
+        flex-direction: column;
+        padding-bottom: 30%;
+    }
 
- .about__img{
-    width: 80%;
- }
+    .about__img {
+        width: 80%;
+    }
 
- .about__right {
-    /* position: absolute;
+    .about__right {
+        /* position: absolute;
     margin-top: 45%;
     margin-left: 11%; */
-    width: 100vw;
-    margin: 0;
+        width: 100vw;
+        margin: 0;
+
+    }
+
+    .about__right__heading {
+        text-align: center;
+        margin-left: 0%;
+    }
 
 }
 
-.about__right__heading{
-    text-align: center;
-    margin-left: 0%;
-}
-
-}
 
 
 
-
-@media only screen and (max-width: 555px){
-    .about{
+@media only screen and (max-width: 555px) {
+    .about {
         padding-bottom: 45%;
+        height: fit-content;
     }
 }
-
-
