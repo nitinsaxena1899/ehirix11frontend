@@ -1,4 +1,4 @@
-.topBar{
+.topBar {
     display: flex;
     background-color: #243559;
     color: #e8e8e8;
@@ -7,29 +7,38 @@
     text-align: center;
 }
 
-.topBar__left{
+.topBar__left {
     display: flex;
+    margin-top: 1%;
 }
 
 
-.topBar__leftcallIcon{
+.topBar__leftcallIcon {
     color: #ff7234;
     /* margin-top: 14%; */
 }
 
 
-.topBar__right{
+.topBar__right {
     display: flex;
     /* margin-left: 50%; */
 }
 
 
-.topBar__right__socialMediaicons{
-display: flex;
+.topBar__right__socialMediaicons {
+    display: flex;
 }
 
 
-.socialMediaicons{
+.socialMediaicons {
     margin-left: 4%;
     margin-right: 4%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .topBar__left {
+        margin-top: 4%;
+    }
+
 }
