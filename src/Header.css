@@ -23,11 +23,11 @@
   color: orange;
 } */
 
-a :active{
+a :active {
   color: red !important;
 }
 
-p:active{
+p:active {
   color: orange !important;
 }
 
@@ -105,8 +105,8 @@ p:active{
   color: white;
 }
 
-.dropdown__links:hover{
-color: #ff7234;
+.dropdown__links:hover {
+  color: #ff7234;
 }
 
 .sidebarMenu {
@@ -144,6 +144,11 @@ color: #ff7234;
   .nav__links {
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+  .aboutForResponsive {
+    margin-top: 4%;
+
   }
 }
 
@@ -220,7 +225,7 @@ color: #ff7234;
     margin-left: -100%;
     margin-top: -21%;
     margin-bottom: -19%;
-}
+  }
 
   .sidebarMenu__img {
     width: 112px;
@@ -262,7 +267,7 @@ color: #ff7234;
     font-size: 4.6vw !important;
   }
 
-  .home__offering__boxes__row__box__data__heading{
+  .home__offering__boxes__row__box__data__heading {
     font-size: 4.6vw !important;
   }
 }

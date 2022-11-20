@@ -108,7 +108,7 @@ function Header() {
                 </NavLink>
 
                 <NavLink to={"/about"} className="sidebarMenu__nav__links ">
-                  <p className="sidebarMenu__nav__heading "  onClick={()=> setOpensidemenu(false)}> AboutUs </p>
+                  <p className="sidebarMenu__nav__heading aboutForResponsive "  onClick={()=> setOpensidemenu(false)}> AboutUs </p>
                 </NavLink>
 
                 <NavLink

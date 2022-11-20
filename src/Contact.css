@@ -1,22 +1,22 @@
-.contact{
+.contact {
     background-color: white;
     display: flex;
     height: 100vh;
 }
 
-.contact__left__img{
+.contact__left__img {
     width: 50%;
     margin-left: -15%;
 }
 
-.contact__right__form{
+.contact__right__form {
     margin-top: 6%;
     margin-left: -40%;
     width: 91%;
     margin-bottom: 10%;
 }
 
-.contact__right__form__input{
+.contact__right__form__input {
     height: 56px;
     background-color: #f7f4f2;
     width: 112%;
@@ -31,7 +31,7 @@
 }
 
 
-.contact__right__form__input__textArea{
+.contact__right__form__input__textArea {
 
     height: 180px;
     background-color: #f7f4f2;
@@ -47,7 +47,7 @@
     width: 110%;
 }
 
-.contact__right__form__button{
+.contact__right__form__button {
     display: block;
     border: none;
     outline: none;
@@ -65,29 +65,29 @@
 
 
 
-@media only screen and (max-width: 550px){
-.contact__right__form__input{
-    height: 40px;
-}
+@media only screen and (max-width: 550px) {
+    .contact__right__form__input {
+        height: 40px;
+    }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-}
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
 
-.contact__right__form{
-    width: 75%;
-    margin: 0%;
-}
+    .contact__right__form {
+        width: 75%;
+        margin: 0%;
+    }
 
-.contact__right__form__button{
-    margin: auto;
-    padding: 0%;
-    height: 10vw;
+    .contact__right__form__button {
+        margin: auto;
+        padding: 0%;
+        height: 10vw;
 
-}
+    }
 
-/* .nameInput{
+    /* .nameInput{
     padding-left: 0;
 } */
 
@@ -95,29 +95,30 @@
 
 
 
-@media only screen and (max-width: 1000px){
-    .contact__right__form__input{
+@media only screen and (max-width: 1000px) {
+    .contact__right__form__input {
         height: 10vw;
     }
-    
-    .contact{
+
+    .contact {
         display: flex;
         flex-direction: column;
     }
-    
-    .contact__right__form{
-        width: 75%;
-        margin: 0%;
+
+    .contact__right__form {
+        width: 85%;
+        margin: auto 0;
+
     }
-    
-    .contact__right__form__button{
+
+    .contact__right__form__button {
         margin: auto;
         padding: 0%;
         height: 10vw;
-    
+
     }
-    
+
     /* .nameInput{
         padding-left: 0;
     } */
-}    
+}
